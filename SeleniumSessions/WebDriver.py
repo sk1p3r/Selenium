@@ -23,7 +23,7 @@ else:
 
 driver.implicitly_wait(5)
 driver.get('https://scribie.com/account/sign-in')
-driver.find_element(By.ID, 'signinSrEmail').send_keys('fridakimani56@gmail.com')
+driver.find_element(By.ID, 'signinSrEmail').send_keys('frida@gmail.com')
 driver.find_element(By.ID, 'signinSrPassword').send_keys('frida@123')
 
 driver.implicitly_wait(100)
