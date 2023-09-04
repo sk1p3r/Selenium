@@ -1,0 +1,29 @@
+Invalid port. Exiting...
+1693831792663	geckodriver	INFO	Listening on 127.0.0.1:3295
+1693831795736	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "3296" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\abc\\AppData\\Local\\Temp\\rust_mozprofileszvVFU"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1693831800080	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1693831800473	Marionette	INFO	Listening on port 3312
+Read port: 3312
+WebDriver BiDi listening on ws://127.0.0.1:3296
+1693831801886	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:3296/devtools/browser/dc5beb81-ca0f-4eef-9027-261ec66d85b8
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+console.error: (new TypeError("lazy.AsyncShutdown.profileBeforeChange is undefined", "resource://services-settings/Database.sys.mjs", 593))
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-1008354005, line 428: Script terminated by timeout at:
+cp@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:428:342
+aa.gm@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:658:175
+c@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:678:694
+bw@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:519:298
+aw.prototype.flush@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:522:266
+aw.prototype.push@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:520:207
+Uv@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:517:712
+kF/<@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:679:153
+aa.vk/<@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:629:126
+aa.vk/c/<@https://www.googletagmanager.com/gtag/js?id=AW-1008354005:628:420
+
+1693831889749	Marionette	INFO	Stopped listening on port 3312
+Dynamically enable window occlusion 1
